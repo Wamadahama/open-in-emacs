@@ -14,7 +14,7 @@ namespace open_in_emacs
         {
             string Command = string.Format("emacs %L");
             FileShellExtension.Register("*", "OpenInEmacs", "Open in Emacs", Command);
-            FileShellExtension.UnRegister("*", "OpenInEmacs");
+            //FileShellExtension.UnRegister("*", "OpenInEmacs");
         }
 
         static class FileShellExtension
